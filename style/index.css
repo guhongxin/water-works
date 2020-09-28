@@ -81,7 +81,7 @@ body {
   text-align: center;
 }
 .part-two {
-  margin: 2% 1%;
+  margin: 3% 1%;
 }
 .part-two .part-two-title {
   width: 20%;
@@ -106,16 +106,16 @@ body {
   width: 18%;
 }
 .part-two  .table-list > .table:first-child .table-head .table-tr .table-th{
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
 }
 .part-two  .table-list > .table:not(:first-child) {
   flex: 1;
   margin-left: 0.2%;
 }
 .part-two  .table-list > .table:not(:first-child) .table-head .table-tr .table-th{
-  height: 25px;
-  line-height: 25px;
+  height: 30px;
+  line-height: 30px;
 }
 .part-two  .table-list .table .table-head {
   background-color:rgba(68, 88, 177, 0.2);
@@ -135,9 +135,9 @@ body {
   font-size: 12px;
 }
 .table .table-body .table-tr .table-td {
-  height: 20px;
+  height: 30px;
   width: 100%;
-  line-height: 20px;
+  line-height: 30px;
 }
 .table .table-body .table-tr:nth-child(even) {
   background-color:rgba(68, 88, 177, 0.2);
