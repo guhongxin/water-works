@@ -47,13 +47,77 @@ body {
 .part-one .part-one-middle {
   width: 50%;;
   margin: 3% 2%;
-  border: 1px solid yellow;
+  
+}
+.crew {
+  width: 100%;
   position: relative;
 }
-.part-one .part-one-middle  .pump {
+.part-one .part-one-middle .crew .pump {
   width: 100%;
   display: block;
 }
+.crew1 {
+  display: block;
+}
+.crew2 {
+  display: none;
+}
+.part-one .part-one-middle .crew .bearing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.part-one .part-one-middle .crew .bearing .status{
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+.crew2 .bearingA {
+  position: absolute;
+  left: 16%;
+  top: 10%;
+}
+.crew2 .bearingB {
+  position: absolute;
+  left: 44%;
+  top: 15%;
+}
+.crew2 .bearingC {
+  position: absolute;
+  left: 66%;
+  top: 13%;
+}
+.crew2 .bearingD {
+  position: absolute;
+  left: 77%;
+  top: 25%;
+}
+.crew1 .bearingA {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+.crew1 .bearingB {
+  position: absolute;
+  left: 31%;
+  top: 70%;
+}
+.bearing .normal {
+  background: url('../img/normal.png') no-repeat center;
+  background-size: 100% 100%;
+}
+.bearing .alarm {
+  background: url('../img/alarm.png') no-repeat center;
+  background-size: 100% 100%;
+}
+.bearing .damage {
+  background: url('../img/damage.png') no-repeat center;
+  background-size: 100% 100%;
+}
+
 .part-one .part-one-middle  .test {
   width: 10px;
   height: 10px;
