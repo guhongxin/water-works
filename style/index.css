@@ -21,8 +21,16 @@ body {
   display: flex;
 }
 .part-one .part-one-left {
-  width: 25%;
+  width: 20%;
   padding-left: 6%;
+  margin-top: 4%;
+}
+.part-one .part-one-left .menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .part-one .part-one-left .menu .menu-item {
   /* width: 204px;
@@ -45,9 +53,8 @@ body {
   margin-bottom: 4%;
 }
 .part-one .part-one-middle {
-  width: 50%;;
-  margin: 3% 2%;
-  
+  width: 55%;;
+  margin: 4% 1% 0px;
 }
 .crew {
   width: 100%;
@@ -83,17 +90,17 @@ body {
 .crew2 .bearingB {
   position: absolute;
   left: 44%;
-  top: 15%;
+  top: 18%;
 }
 .crew2 .bearingC {
   position: absolute;
-  left: 66%;
-  top: 13%;
+  left: 54%;
+  top: 12%;
 }
 .crew2 .bearingD {
   position: absolute;
-  left: 77%;
-  top: 25%;
+  left: 76%;
+  top: 20%;
 }
 .crew1 .bearingA {
   position: absolute;
@@ -129,6 +136,7 @@ body {
 .part-one .part-one-right {
   width: 25%;
   padding-right: 4%;
+  margin-top: 4%;
   box-sizing: border-box;
 }
 .part-one .part-one-right .warning-box {
@@ -146,7 +154,7 @@ body {
   text-align: center;
 }
 .part-two {
-  margin: 1% 1% 0px;
+  margin: 1% 1% 10px;
 }
 .part-two .part-two-title {
   width: 20%;
