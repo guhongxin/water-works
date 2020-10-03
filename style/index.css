@@ -17,22 +17,22 @@ body {
   padding-top: 5%;
   box-sizing: border-box;
 }
-.part-one {
+#bearing .part-one {
   display: flex;
 }
-.part-one .part-one-left {
+#bearing .part-one .part-one-left {
   width: 20%;
   padding-left: 6%;
   margin-top: 4%;
 }
-.part-one .part-one-left .menu {
+#bearing .part-one .part-one-left .menu {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.part-one .part-one-left .menu .menu-item {
+#bearing .part-one .part-one-left .menu .menu-item {
   /* width: 204px;
   height: 60px; */
   width: 50%;
@@ -43,89 +43,89 @@ body {
   text-align: center;
   padding: 5% 0px;
 }
-.no-active-menu-item {
+#bearing .no-active-menu-item {
   background: url('../img/border1.png');
 }
-.active-menu-item {
+#bearing .active-menu-item {
   background: url('../img/border2.png');
 }
-.part-one .part-one-left .menu > .menu-item:not(:last-child) {
+#bearing .part-one .part-one-left .menu > .menu-item:not(:last-child) {
   margin-bottom: 4%;
 }
-.part-one .part-one-middle {
+#bearing .part-one .part-one-middle {
   width: 55%;;
   margin: 4% 1% 0px;
 }
-.crew {
+#bearing .crew {
   width: 100%;
   position: relative;
 }
-.part-one .part-one-middle .crew .pump {
+#bearing .part-one .part-one-middle .crew .pump {
   width: 100%;
   display: block;
 }
-.crew1 {
+#bearing .crew1 {
   display: block;
 }
-.crew2 {
+#bearing .crew2 {
   display: none;
 }
-.part-one .part-one-middle .crew .bearing {
+#bearing .part-one .part-one-middle .crew .bearing {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 12px;
 }
-.part-one .part-one-middle .crew .bearing .status{
+#bearing .part-one .part-one-middle .crew .bearing .status{
   display: block;
   width: 14px;
   height: 14px;
   margin-left: 5px;
 }
-.crew2 .bearingA {
+#bearing .crew2 .bearingA {
   position: absolute;
   left: 16%;
   top: 10%;
 }
-.crew2 .bearingB {
+#bearing .crew2 .bearingB {
   position: absolute;
   left: 44%;
   top: 18%;
 }
-.crew2 .bearingC {
+#bearing .crew2 .bearingC {
   position: absolute;
   left: 54%;
   top: 12%;
 }
-.crew2 .bearingD {
+#bearing .crew2 .bearingD {
   position: absolute;
   left: 76%;
   top: 20%;
 }
-.crew1 .bearingA {
+#bearing .crew1 .bearingA {
   position: absolute;
   left: 30%;
   top: 10%;
 }
-.crew1 .bearingB {
+#bearing .crew1 .bearingB {
   position: absolute;
   left: 31%;
   top: 70%;
 }
-.bearing .normal {
+#bearing .bearing .normal {
   background: url('../img/normal.png') no-repeat center;
   background-size: 100% 100%;
 }
-.bearing .alarm {
+#bearing .bearing .alarm {
   background: url('../img/alarm.png') no-repeat center;
   background-size: 100% 100%;
 }
-.bearing .damage {
+#bearing .bearing .damage {
   background: url('../img/damage.png') no-repeat center;
   background-size: 100% 100%;
 }
 
-.part-one .part-one-middle  .test {
+#bearing .part-one .part-one-middle  .test {
   width: 10px;
   height: 10px;
   border: 1px solid red;
@@ -133,13 +133,13 @@ body {
   left: 61.5%;
   top: 11.5%;
 }
-.part-one .part-one-right {
+#bearing .part-one .part-one-right {
   width: 25%;
   padding-right: 4%;
   margin-top: 4%;
   box-sizing: border-box;
 }
-.part-one .part-one-right .warning-box {
+#bearing .part-one .part-one-right .warning-box {
   height: 50%;
   background: url("../img/box1.png");
   background-repeat: no-repeat;
@@ -147,27 +147,27 @@ body {
   background-position: top center;
   padding-top: 8%;
 }
-.part-one .part-one-right .warning-box .warning-box-title {
+#bearing .part-one .part-one-right .warning-box .warning-box-title {
   font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
 }
-.part-two {
+#bearing .part-two {
   margin: 1% 1% 10px;
 }
-.part-two .part-two-title {
+#bearing .part-two .part-two-title {
   width: 20%;
   background:url(../img/table-title.png) no-repeat;
   background-size: 100% 100%;
   margin: 0px auto;
 }
-.part-two-center {
+#bearing .part-two-center {
   text-align: center;
   line-height: 40px;
   letter-spacing: 2px;
 }
-.part-two  .table-list {
+#bearing .part-two  .table-list {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -175,53 +175,53 @@ body {
   border: 1px solid rgba(68, 88, 177, 0.5);
   overflow: hidden;
 }
-.part-two  .table-list > .table:first-child {
+#bearing .part-two  .table-list > .table:first-child {
   width: 18%;
 }
-.part-two  .table-list > .table:first-child .table-head .table-tr .table-th{
+#bearing .part-two  .table-list > .table:first-child .table-head .table-tr .table-th{
   height: 60px;
   line-height: 60px;
 }
-.part-two  .table-list > .table:not(:first-child) {
+#bearing .part-two  .table-list > .table:not(:first-child) {
   flex: 1;
   margin-left: 0.2%;
 }
-.part-two  .table-list > .table:not(:first-child) .table-head .table-tr .table-th{
+#bearing .part-two  .table-list > .table:not(:first-child) .table-head .table-tr .table-th{
   height: 30px;
   line-height: 30px;
 }
-.part-two  .table-list .table .table-head {
+#bearing .part-two  .table-list .table .table-head {
   background-color:rgba(68, 88, 177, 0.2);
 }
 .table {
   margin-bottom: 0px;
 }
-.table .table-tr {
+#bearing .table .table-tr {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.table .table-tr .table-td,
-.table .table-tr .table-th {
+#bearing .table .table-tr .table-td,
+#bearing .table .table-tr .table-th {
   flex: 1;
   text-align: center;
   font-size: 12px;
 }
-.table .table-body .table-tr .table-td {
+#bearing .table .table-body .table-tr .table-td {
   height: 30px;
   width: 100%;
   line-height: 30px;
 }
-.table .table-body .table-tr:nth-child(even) {
+#bearing .table .table-body .table-tr:nth-child(even) {
   background-color:rgba(68, 88, 177, 0.2);
 }
-.table-footer .details {
+#bearing .table-footer .details {
   font-size: 12px;
   text-align: center;
   height: 20px;
   line-height: 20px;
 }
-.table-footer .details span {
+#bearing .table-footer .details span {
   cursor: pointer;
   color: rgba(105, 239, 98, 1);
 }
