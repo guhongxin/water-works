@@ -202,3 +202,33 @@ body {
   top: 89%;
   left: 71%;
 }
+.water-card {
+  position: absolute;
+  width: 160px;
+  height: 110px;
+  background: url('../img/card.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.water-card .water-card-title {
+  font-size: 14px;
+  color: #ffffff;
+}
+.water-card .water-card-content {
+  margin-top: 10px;
+  color: #8CF2F9;
+  font-size: 12px;
+}
+.water-card .water-card-content > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.east-gd-details {
+  top: 4%;
+  left: 13%;
+}
+.west-gd-details {
+  top: 63%;
+  left: 15%;
+}

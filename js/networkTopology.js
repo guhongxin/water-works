@@ -34,6 +34,9 @@ function setMeter() {
   $('.instrumentlocation24').css({top: '55%', left: '72%' })
   $('.instrumentlocation25').css({top: '72%', left: '72%' })
   $('.instrumentlocation26').css({top: '89%', left: '72%' })
+
+  $('.east-gd-details').css({top: '15%', left: '16%' })
+  $('.west-gd-details').css({top: '75%', left: '17%' })
 }
 // 获取图片比率
 function imgRatio(callback) {
