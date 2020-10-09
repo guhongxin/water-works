@@ -1,14 +1,15 @@
 html {
   width: 100%;
 }
-body {
-  min-width: 1024px;
+#bearing {
+  min-width: 1300px;
   min-height: 100vh;
   color: #fff;
   background: url(../img/bj.png);
   background-size: 100% 100%;
   background-position: 0 0;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
+  overflow: hidden;
   background-repeat: no-repeat;
 }
 .viewport {
@@ -74,7 +75,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 #bearing .part-one .part-one-middle .crew .bearing .status{
   display: block;
@@ -205,7 +206,7 @@ body {
 #bearing .table .table-tr .table-th {
   flex: 1;
   text-align: center;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 #bearing .table .table-body .table-tr .table-td {
   height: 30px;
@@ -216,7 +217,7 @@ body {
   background-color:rgba(68, 88, 177, 0.2);
 }
 #bearing .table-footer .details {
-  font-size: 12px;
+  /* font-size: 12px; */
   text-align: center;
   height: 20px;
   line-height: 20px;
@@ -224,4 +225,9 @@ body {
 #bearing .table-footer .details span {
   cursor: pointer;
   color: rgba(105, 239, 98, 1);
+}
+@media screen and (min-width: 1900px) {
+  #bearing .part-two {
+    margin: 4% 1% 10px;
+  }
 }
