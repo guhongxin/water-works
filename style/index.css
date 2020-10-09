@@ -226,7 +226,7 @@ html {
   cursor: pointer;
   color: rgba(105, 239, 98, 1);
 }
-@media screen and (min-width: 1900px) {
+@media only screen and (min-width: 1700px) {
   #bearing .part-two  .table-list > .table:first-child .table-head .table-tr .table-th{
     height: 80px;
     line-height: 80px;
@@ -261,8 +261,37 @@ html {
   }
 }
 
-@media screen and (min-width: 2880px) {
+@media only screen and (min-width: 2500px) {
   #bearing .part-two {
     margin: 10% 1% 10px;
+  }
+  #bearing .part-two  .table-list > .table:first-child .table-head .table-tr .table-th{
+    height: 100px;
+    line-height: 100px;
+  }
+  #bearing .part-two  .table-list > .table:not(:first-child) .table-head .table-tr .table-th{
+    height: 50px;
+    line-height: 50px;
+  }
+  #bearing .table .table-body .table-tr .table-td {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+  }
+  #bearing .table-footer .details {
+    /* font-size: 12px; */
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  #bearing .part-one .part-one-middle .crew .bearing {
+    font-size: 16px;
+  }
+  #bearing .table .table-tr .table-td,
+  #bearing .table .table-tr .table-th {
+    font-size: 16px;
+  }
+  #bearing .table-footer .details {
+    font-size: 16px;
   }
 }
