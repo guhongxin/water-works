@@ -28,7 +28,7 @@ body {
   display: block;
 }
 .instrumentlocation {
-  position: relative;
+  position: absolute;
 }
 .instrumentlocation .meter {
   height: 60px;
