@@ -3,7 +3,9 @@ $(function() {
   imgRatio(setMeter0)
   $('.meter').on('click', function() {
     let index = $(this).data("instarument")
-    location.href = './jmjd.html'
+    if (index === 1) {
+      location.href = './jmjd.html'
+    }
   })
 })
 //1920定位仪表
