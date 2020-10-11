@@ -4,7 +4,7 @@ $(function() {
   $('.meter').on('click', function() {
     let index = $(this).data("instarument")
     if (index === 1) {
-      location.href = './jmjd.html'
+      location.href = './jmdd.html'
     }
   })
 })

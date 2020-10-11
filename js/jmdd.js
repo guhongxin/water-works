@@ -2,9 +2,12 @@ $(function() {
   // 加载完成
   imgRatio(setMeter0)
   let screenHt = window.screen.height
-  let pagetitleHt = $('.page-title').height()
-  let ht = screenHt - pagetitleHt
-  $('.water-network-box').css('min-height', ht)
+  $('.meter').on('click', function() {
+    let index = $(this).data("instarument")
+    if (index === 2) {
+      location.href = './dcl.html'
+    }
+  })
 })
 //1920定位仪表
 function setMeter0() {
