@@ -99,14 +99,14 @@ function setMeter1() {
 //1730定位仪表
 function setMeter2() {
   $('.instrumentlocation .meter').css('height', '60px')
-  $('.instrumentlocation1').css({top: '29%', left: '18%' })
-  $('.instrumentlocation2').css({top: '89%', left: '18%' })
+  $('.instrumentlocation1').css({top: '28.5%', left: '18%' })
+  $('.instrumentlocation2').css({top: '87.8%', left: '18%' })
   $('.instrumentlocation3').css({top: '3.4%', left: '31.2%' })
   $('.instrumentlocation4').css({top: '20.4%', left: '31.2%' })
-  $('.instrumentlocation5').css({top: '37.5%', left: '31.2%' })
-  $('.instrumentlocation6').css({top: '55%', left: '31.2%' })
-  $('.instrumentlocation7').css({top: '71.7%', left: '31.2%' })
-  $('.instrumentlocation8').css({top: '89%', left: '31.2%' })
+  $('.instrumentlocation5').css({top: '37.3%', left: '31.2%' })
+  $('.instrumentlocation6').css({top: '54%', left: '31.2%' })
+  $('.instrumentlocation7').css({top: '70.7%', left: '31.2%' })
+  $('.instrumentlocation8').css({top: '87.8%', left: '31.2%' })
 
   $('.instrumentlocation9').css({top: '4%', left: '42.4%' })
   $('.instrumentlocation10').css({top: '21%', left: '42.4%' })
