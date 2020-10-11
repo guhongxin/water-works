@@ -13,6 +13,16 @@ body {
 }
 .page-title {
   width: 100%;
+  position: relative;
+}
+.page-title .title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 .page-title .title-img {
   width: 100%;
@@ -99,4 +109,7 @@ body {
 }
 .right-card-area > .water-card:not(:last-child) {
   margin-bottom: 5%;
+}
+.gd-name {
+  position: absolute;
 }

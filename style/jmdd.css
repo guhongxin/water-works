@@ -1,0 +1,115 @@
+html {
+  width: 100%;
+}
+body {
+  min-width: 1024px;
+  min-height: 100vh;
+  color: #fff;
+  background: url(../img/bj.png);
+  background-size: 100% 100%;
+  background-position: 0 0;
+  border: 1px solid transparent;
+  background-repeat: no-repeat;
+}
+.page-title {
+  width: 100%;
+  position: relative;
+}
+.page-title .title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.page-title .title-img {
+  width: 100%;
+  display: block;
+}
+.water-network {
+  width: 90%;
+  margin: 1% auto 20px;
+  position: relative;
+}
+.water-network .water-work-img {
+  width: 100%;
+  display: block;
+}
+.instrumentlocation {
+  position: absolute;
+}
+.instrumentlocation .meter {
+  height: 60px;
+  display: block;
+}
+.instrumentlocation .meter-tooltip {
+  width: 70px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #8BF1F9;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #8BF1F9;
+  position: absolute;
+  right: -67px;
+  top: 0px;
+
+}
+.instrumentlocationBl .meter-tooltip {
+  width: 70px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #8BF1F9;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #8BF1F9;
+  position: absolute;
+  right: -89px;
+  top: 0px;
+
+}
+.water-card {
+  width: 160px;
+  height: 110px;
+  background: url('../img/card.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.water-card .water-card-title {
+  font-size: 14px;
+  color: #ffffff;
+}
+.water-card .water-card-content {
+  margin-top: 10px;
+  color: #8CF2F9;
+  font-size: 12px;
+}
+.water-card .water-card-content > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.east-gd-details {
+  position: absolute;
+  top: 4%;
+  left: 13%;
+}
+.right-card-area {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.right-card-area > .water-card:not(:last-child) {
+  margin-bottom: 5%;
+}
+.gd-name {
+  position: absolute;
+}

@@ -1,6 +1,10 @@
 $(function() {
   // 加载完成
   imgRatio(setMeter0)
+  let screenHt = window.screen.height
+  let pagetitleHt = $('.page-title').height()
+  let ht = screenHt - pagetitleHt
+  $('.water-network-box').css('min-height', ht)
 })
 //1920定位仪表
 function setMeter0() {
@@ -38,6 +42,31 @@ function setMeter0() {
   $('.instrumentlocation25').css({top: '89.5%', left: '71.9%' })
 
   $('.east-gd-details').css({top: '13%', left: '16%' })
+
+  $('.gd-txt1').css({top: '12%', left: '82.7%' })
+  $('.gd-txt2').css({top: '29%', left: '82.7%' })
+  $('.gd-txt3').css({top: '46%', left: '82.7%' })
+  $('.gd-txt4').css({top: '63%', left: '82.7%' })
+  $('.gd-txt5').css({top: '80%', left: '82.7%' })
+  $('.gd-txt6').css({top: '97%', left: '82.7%' })
+  $('.gd-txt7').css({top: '-1%', left: '44.6%' })
+  $('.gd-txt8').css({top: '-1%', left: '58.8%' })
+  $('.gd-txt9').css({top: '-1%', left: '73%' })
+  $('.gd-txt10').css({top: '17%', left: '44.5%' })
+  $('.gd-txt11').css({top: '17%', left: '59%' })
+  $('.gd-txt12').css({top: '17%', left: '72.8%' })
+  $('.gd-txt13').css({top: '34%', left: '44.9%' })
+  $('.gd-txt14').css({top: '34%', left: '58.8%' })
+  $('.gd-txt15').css({top: '34%', left: '73.7%' })
+  $('.gd-txt16').css({top: '51%', left: '44.5%' })
+  $('.gd-txt17').css({top: '51%', left: '58.8%' })
+  $('.gd-txt18').css({top: '51%', left: '72.7%' })
+  $('.gd-txt19').css({top: '68%', left: '44.8%' })
+  $('.gd-txt20').css({top: '68%', left: '59%' })
+  $('.gd-txt21').css({top: '68%', left: '73.5%' })
+  $('.gd-txt22').css({top: '85%', left: '44.8%' })
+  $('.gd-txt23').css({top: '85%', left: '59.2%' })
+  $('.gd-txt24').css({top: '85%', left: '73.5%' })
 }
 //1730定位仪表
 function setMeter1() {
@@ -75,6 +104,32 @@ function setMeter1() {
   $('.instrumentlocation25').css({top: '89.5%', left: '71.6%' })
 
   $('.east-gd-details').css({top: '13%', left: '16%' })
+
+  $('.gd-name').css({'font-size': '14px'})
+  $('.gd-txt1').css({top: '12%', left: '82.7%' })
+  $('.gd-txt2').css({top: '29%', left: '82.7%' })
+  $('.gd-txt3').css({top: '46%', left: '82.7%' })
+  $('.gd-txt4').css({top: '63%', left: '82.7%' })
+  $('.gd-txt5').css({top: '80%', left: '82.7%' })
+  $('.gd-txt6').css({top: '97%', left: '82.7%' })
+  $('.gd-txt7').css({top: '-1%', left: '44.6%' })
+  $('.gd-txt8').css({top: '-1%', left: '58.8%' })
+  $('.gd-txt9').css({top: '-1%', left: '73%' })
+  $('.gd-txt10').css({top: '17%', left: '44.5%' })
+  $('.gd-txt11').css({top: '17%', left: '59%' })
+  $('.gd-txt12').css({top: '17%', left: '72.8%' })
+  $('.gd-txt13').css({top: '34%', left: '44.9%' })
+  $('.gd-txt14').css({top: '34%', left: '58.8%' })
+  $('.gd-txt15').css({top: '34%', left: '73.7%' })
+  $('.gd-txt16').css({top: '51%', left: '44.5%' })
+  $('.gd-txt17').css({top: '51%', left: '58.8%' })
+  $('.gd-txt18').css({top: '51%', left: '72.7%' })
+  $('.gd-txt19').css({top: '68%', left: '44.8%' })
+  $('.gd-txt20').css({top: '68%', left: '59%' })
+  $('.gd-txt21').css({top: '68%', left: '73.5%' })
+  $('.gd-txt22').css({top: '85%', left: '44.8%' })
+  $('.gd-txt23').css({top: '85%', left: '59.2%' })
+  $('.gd-txt24').css({top: '85%', left: '73.5%' })
 }
 
 //1200定位仪表
@@ -113,6 +168,32 @@ function setMeter2() {
   $('.instrumentlocation25').css({top: '88%', left: '70.6%' })
 
   $('.east-gd-details').css({top: '6%', left: '14%' })
+  
+  $('.gd-name').css({'font-size': '14px'})
+  $('.gd-txt1').css({top: '12%', left: '82.7%' })
+  $('.gd-txt2').css({top: '29%', left: '82.7%' })
+  $('.gd-txt3').css({top: '46%', left: '82.7%' })
+  $('.gd-txt4').css({top: '63%', left: '82.7%' })
+  $('.gd-txt5').css({top: '80%', left: '82.7%' })
+  $('.gd-txt6').css({top: '97%', left: '82.7%' })
+  $('.gd-txt7').css({top: '-1%', left: '44.6%' })
+  $('.gd-txt8').css({top: '-1%', left: '58.8%' })
+  $('.gd-txt9').css({top: '-1%', left: '73%' })
+  $('.gd-txt10').css({top: '17%', left: '44.5%' })
+  $('.gd-txt11').css({top: '17%', left: '59%' })
+  $('.gd-txt12').css({top: '17%', left: '72.8%' })
+  $('.gd-txt13').css({top: '34%', left: '44.9%' })
+  $('.gd-txt14').css({top: '34%', left: '58.8%' })
+  $('.gd-txt15').css({top: '34%', left: '73.7%' })
+  $('.gd-txt16').css({top: '51%', left: '44.5%' })
+  $('.gd-txt17').css({top: '51%', left: '58.8%' })
+  $('.gd-txt18').css({top: '51%', left: '72.7%' })
+  $('.gd-txt19').css({top: '68%', left: '44.8%' })
+  $('.gd-txt20').css({top: '68%', left: '59%' })
+  $('.gd-txt21').css({top: '68%', left: '73.5%' })
+  $('.gd-txt22').css({top: '85%', left: '44.8%' })
+  $('.gd-txt23').css({top: '85%', left: '59.2%' })
+  $('.gd-txt24').css({top: '85%', left: '73.5%' })
 }
 // 获取图片比率
 function imgRatio(callback) {
