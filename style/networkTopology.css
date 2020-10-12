@@ -126,6 +126,8 @@
 }
 .right-card-area {
   position: absolute;
+  top: 0px;
+  right: 0px;
 }
 .right-card-area > .water-card:not(:last-child) {
   margin-bottom: 5%;

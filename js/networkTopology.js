@@ -54,15 +54,15 @@ $(function() {
 })
 //1920定位仪表
 function onesetMeter0() {
-  $('.primary-piping .instrumentlocation .meter').css('height', '76px')
-  $('.primary-piping .instrumentlocation1').css({top: '31%', left: '18%' })
-  $('.primary-piping .instrumentlocation2').css({top: '91%', left: '18%' })
-  $('.primary-piping .instrumentlocation3').css({top: '5.9%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation4').css({top: '23%', left: '31.2%' })
-  $('.primary-piping.instrumentlocation5').css({top: '40%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation6').css({top: '57.2%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation7').css({top: '74.2%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation8').css({top: '91%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation .meter').css({'height':'86px', 'transform': 'scale(1.1)'})
+  $('.primary-piping .instrumentlocation1').css({top: '29%', left: '18%' })
+  $('.primary-piping .instrumentlocation2').css({top: '88.2%', left: '18%' })
+  $('.primary-piping .instrumentlocation3').css({top: '3.9%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation4').css({top: '20.6%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation5').css({top: '37.6%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation6').css({top: '54.7%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation7').css({top: '71.2%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation8').css({top: '88.1%', left: '31.2%' })
 
   $('.primary-piping .instrumentlocation9').css({top: '4%', left: '43.5%' })
   $('.primary-piping .instrumentlocation10').css({top: '21%', left: '43.5%' })
@@ -85,8 +85,8 @@ function onesetMeter0() {
   $('.primary-piping .instrumentlocation25').css({top: '72%', left: '72%' })
   $('.primary-piping .instrumentlocation26').css({top: '89%', left: '72%' })
 
-  $('.primary-piping .east-gd-details').css({top: '15%', left: '16%' })
-  $('.primary-piping .west-gd-details').css({top: '75%', left: '17%' })
+  $('.primary-piping .east-gd-details').css({top: '12%', left: '16%' })
+  $('.primary-piping .west-gd-details').css({top: '72%', left: '17%' })
 
   $('.primary-piping .gd-txt1').css({top: '12.5%', left: '82.7%' })
   $('.primary-piping .gd-txt2').css({top: '29.5%', left: '82.7%' })
@@ -99,14 +99,14 @@ function onesetMeter0() {
 //1730定位仪表
 function onesetMeter1() {
   $('.primary-piping .instrumentlocation .meter').css('height', '78px')
-  $('.primary-piping .instrumentlocation1').css({top: '30%', left: '18%' })
-  $('.primary-piping .instrumentlocation2').css({top: '90%', left: '18%' })
-  $('.primary-piping .instrumentlocation3').css({top: '4.6%', left: '31.3%' })
-  $('.primary-piping .instrumentlocation4').css({top: '21.5%', left: '31.3%' })
-  $('.primary-piping .instrumentlocation5').css({top: '38.6%', left: '31.3%' })
-  $('.primary-piping .instrumentlocation6').css({top: '55.8%', left: '31.3%' })
-  $('.primary-piping .instrumentlocation7').css({top: '72.7%', left: '31.3%' })
-  $('.primary-piping .instrumentlocation8').css({top: '89.6%', left: '31.3%' })
+  $('.primary-piping .instrumentlocation1').css({top: '29.5%', left: '18%' })
+  $('.primary-piping .instrumentlocation2').css({top: '88.5%', left: '18%' })
+  $('.primary-piping .instrumentlocation3').css({top: '4.2%', left: '31.3%' })
+  $('.primary-piping .instrumentlocation4').css({top: '21.2%', left: '31.3%' })
+  $('.primary-piping .instrumentlocation5').css({top: '38%', left: '31.3%' })
+  $('.primary-piping .instrumentlocation6').css({top: '54.9%', left: '31.3%' })
+  $('.primary-piping .instrumentlocation7').css({top: '71.6%', left: '31.3%' })
+  $('.primary-piping .instrumentlocation8').css({top: '88.4%', left: '31.3%' })
 
   $('.primary-piping .instrumentlocation9').css({top: '4%', left: '43.3%' })
   $('.primary-piping .instrumentlocation10').css({top: '21%', left: '43.3%' })
@@ -129,8 +129,8 @@ function onesetMeter1() {
   $('.primary-piping .instrumentlocation25').css({top: '72%', left: '71.8%' })
   $('.primary-piping .instrumentlocation26').css({top: '89%', left: '71.8%' })
 
-  $('.primary-piping .east-gd-details').css({top: '14%', left: '16%' })
-  $('.primary-piping .west-gd-details').css({top: '74%', left: '17%' })
+  $('.primary-piping .east-gd-details').css({top: '11%', left: '16%' })
+  $('.primary-piping .west-gd-details').css({top: '71%', left: '17%' })
 
   $('.primary-piping .gd-txt1').css({top: '12.5%', left: '82.7%' })
   $('.primary-piping .gd-txt2').css({top: '29.5%', left: '82.7%' })
@@ -144,13 +144,13 @@ function onesetMeter1() {
 function onesetMeter2() {
   $('.primary-piping .instrumentlocation .meter').css('height', '60px')
   $('.primary-piping .instrumentlocation1').css({top: '28.5%', left: '18%' })
-  $('.primary-piping .instrumentlocation2').css({top: '87.8%', left: '18%' })
-  $('.primary-piping .instrumentlocation3').css({top: '3.4%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation4').css({top: '20.4%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation5').css({top: '37.3%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation6').css({top: '54%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation2').css({top: '87.6%', left: '18%' })
+  $('.primary-piping .instrumentlocation3').css({top: '3.2%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation4').css({top: '20.2%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation5').css({top: '37.1%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation6').css({top: '53.8%', left: '31.2%' })
   $('.primary-piping .instrumentlocation7').css({top: '70.7%', left: '31.2%' })
-  $('.primary-piping .instrumentlocation8').css({top: '87.8%', left: '31.2%' })
+  $('.primary-piping .instrumentlocation8').css({top: '87.5%', left: '31.2%' })
 
   $('.primary-piping .instrumentlocation9').css({top: '4%', left: '42.4%' })
   $('.primary-piping .instrumentlocation10').css({top: '21%', left: '42.4%' })
@@ -173,14 +173,15 @@ function onesetMeter2() {
   $('.primary-piping .instrumentlocation25').css({top: '72%', left: '70.8%' })
   $('.primary-piping .instrumentlocation26').css({top: '89%', left: '70.8%' })
 
-  $('.primary-piping .east-gd-details').css({top: '6%', left: '13%' })
-  $('.primary-piping .west-gd-details').css({top: '65%', left: '15%' })
+  $('.primary-piping .east-gd-details').css({top: '3%', left: '13%' })
+  $('.primary-piping .west-gd-details').css({top: '62%', left: '15%' })
+
   $('.primary-piping .gd-name').css({'font-size': '12px'})
   $('.primary-piping .gd-txt1').css({top: '12.2%', left: '82.4%' })
   $('.primary-piping .gd-txt2').css({top: '29.2%', left: '82.4%' })
   $('.primary-piping .gd-txt3').css({top: '46.2%', left: '82.4%' })
   $('.primary-piping .gd-txt4').css({top: '63.2%', left: '82.4%' })
-  $('.primary-piping.gd-txt5').css({top: '80.2%', left: '82.4%' })
+  $('.primary-piping .gd-txt5').css({top: '80.2%', left: '82.4%' })
   $('.primary-piping .gd-txt6').css({top: '97.2%', left: '82.4%' })
 }
 
@@ -284,7 +285,7 @@ function twosetMeter1() {
   $('.secondary-piping .instrumentlocation24').css({top: '72.3%', left: '71.6%' })
   $('.secondary-piping .instrumentlocation25').css({top: '89.5%', left: '71.6%' })
 
-  $('.secondary-piping .east-gd-details').css({top: '13%', left: '16%' })
+  $('.secondary-piping .east-gd-details').css({top: '11%', left: '16%' })
 
   $('.secondary-piping .gd-name').css({'font-size': '14px'})
   $('.secondary-piping .gd-txt1').css({top: '12%', left: '82.7%' })
@@ -312,7 +313,69 @@ function twosetMeter1() {
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
 }
+//1200定位仪表
+function twosetMeter2() {
+  $('.secondary-piping .instrumentlocation .meter').css('height', '60px')
+  $('.secondary-piping .instrumentlocation .meter3').css('height', '34px')
 
+  $('.secondary-piping .instrumentlocation1').css({top: '28.3%', left: '18%' })
+
+  $('.secondary-piping .instrumentlocation2').css({top: '3.4%', left: '31.2%' })
+  $('.secondary-piping .instrumentlocation3').css({top: '20%', left: '31.2%' })
+  $('.secondary-piping .instrumentlocation4').css({top: '37%', left: '31.2%' })
+  $('.secondary-piping .instrumentlocation5').css({top: '53.8%', left: '31.2%' })
+  $('.secondary-piping .instrumentlocation6').css({top: '70.6%', left: '31.2%' })
+  $('.secondary-piping .instrumentlocation7').css({top: '87.8%', left: '31.2%' })
+
+  $('.secondary-piping .instrumentlocation8').css({top: '3%', left: '42.1%' })
+  $('.secondary-piping .instrumentlocation9').css({top: '20%', left: '42.1%' })
+  $('.secondary-piping .instrumentlocation10').css({top: '37%', left: '42.1%' })
+  $('.secondary-piping .instrumentlocation11').css({top: '54%', left: '42.1%' })
+  $('.secondary-piping .instrumentlocation12').css({top: '71%', left: '42.1%' })
+  $('.secondary-piping .instrumentlocation13').css({top: '88%', left: '42.1%' })
+
+  $('.secondary-piping .instrumentlocation14').css({top: '3%', left: '56.3%' })
+  $('.secondary-piping .instrumentlocation15').css({top: '20%', left: '56.3%' })
+  $('.secondary-piping .instrumentlocation16').css({top: '37%', left: '56.3%' })
+  $('.secondary-piping .instrumentlocation17').css({top: '54%', left: '56.3%' })
+  $('.secondary-piping .instrumentlocation18').css({top: '71%', left: '56.3%' })
+  $('.secondary-piping .instrumentlocation19').css({top: '88%', left: '56.3%' })
+
+  $('.secondary-piping .instrumentlocation20').css({top: '3%', left: '70.6%' })
+  $('.secondary-piping .instrumentlocation21').css({top: '20%', left: '70.6%' })
+  $('.secondary-piping .instrumentlocation22').css({top: '37%', left: '70.6%' })
+  $('.secondary-piping .instrumentlocation23').css({top: '54%', left: '70.6%' })
+  $('.secondary-piping .instrumentlocation24').css({top: '71%', left: '70.6%' })
+  $('.secondary-piping .instrumentlocation25').css({top: '88%', left: '70.6%' })
+
+  $('.secondary-piping .east-gd-details').css({top: '3%', left: '14%' })
+  
+  $('.secondary-piping .gd-name').css({'font-size': '14px'})
+  $('.secondary-piping .gd-txt1').css({top: '12%', left: '82.7%' })
+  $('.secondary-piping .gd-txt2').css({top: '29%', left: '82.7%' })
+  $('.secondary-piping .gd-txt3').css({top: '46%', left: '82.7%' })
+  $('.secondary-piping .gd-txt4').css({top: '63%', left: '82.7%' })
+  $('.secondary-piping .gd-txt5').css({top: '80%', left: '82.7%' })
+  $('.secondary-piping .gd-txt6').css({top: '97%', left: '82.7%' })
+  $('.secondary-piping .gd-txt7').css({top: '-1%', left: '44.6%' })
+  $('.secondary-piping .gd-txt8').css({top: '-1%', left: '58.8%' })
+  $('.secondary-piping .gd-txt9').css({top: '-1%', left: '73%' })
+  $('.secondary-piping .gd-txt10').css({top: '17%', left: '44.5%' })
+  $('.secondary-piping .gd-txt11').css({top: '17%', left: '59%' })
+  $('.secondary-piping .gd-txt12').css({top: '17%', left: '72.8%' })
+  $('.secondary-piping .gd-txt13').css({top: '34%', left: '44.9%' })
+  $('.secondary-piping .gd-txt14').css({top: '34%', left: '58.8%' })
+  $('.secondary-piping .gd-txt15').css({top: '34%', left: '73.7%' })
+  $('.secondary-piping .gd-txt16').css({top: '51%', left: '44.5%' })
+  $('.secondary-piping .gd-txt17').css({top: '51%', left: '58.8%' })
+  $('.secondary-piping .gd-txt18').css({top: '51%', left: '72.7%' })
+  $('.secondary-piping .gd-txt19').css({top: '68%', left: '44.8%' })
+  $('.secondary-piping .gd-txt20').css({top: '68%', left: '59%' })
+  $('.secondary-piping .gd-txt21').css({top: '68%', left: '73.5%' })
+  $('.secondary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
+  $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
+  $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+}
 //1920定位仪表
 function treesetMeter0() {
   $('.tertiary-piping .instrumentlocation .meter').css('height', '80px')
@@ -348,7 +411,7 @@ function treesetMeter0() {
   $('.tertiary-piping .instrumentlocation24').css({top: '72.3%', left: '71.9%' })
   $('.tertiary-piping .instrumentlocation25').css({top: '89.5%', left: '71.9%' })
 
-  $('.tertiary-piping .east-gd-details').css({top: '13%', left: '16%' })
+  $('.tertiary-piping .east-gd-details').css({top: '11%', left: '16%' })
 
   $('.tertiary-piping .gd-txt1').css({top: '12%', left: '82.7%' })
   $('.tertiary-piping .gd-txt2').css({top: '29%', left: '82.7%' })
@@ -410,7 +473,7 @@ function treesetMeter1() {
   $('.tertiary-piping .instrumentlocation24').css({top: '72.3%', left: '71.6%' })
   $('.tertiary-piping .instrumentlocation25').css({top: '89.5%', left: '71.6%' })
 
-  $('.tertiary-piping .east-gd-details').css({top: '13%', left: '16%' })
+  $('.tertiary-piping .east-gd-details').css({top: '11%', left: '16%' })
 
   $('.tertiary-piping .gd-name').css({'font-size': '14px'})
   $('.tertiary-piping .gd-txt1').css({top: '12%', left: '82.7%' })
@@ -474,7 +537,7 @@ function treesetMeter2() {
   $('.tertiary-piping .instrumentlocation24').css({top: '71%', left: '70.6%' })
   $('.tertiary-piping .instrumentlocation25').css({top: '88%', left: '70.6%' })
 
-  $('.tertiary-piping .east-gd-details').css({top: '6%', left: '14%' })
+  $('.tertiary-piping .east-gd-details').css({top: '3%', left: '14%' })
   
   $('.tertiary-piping .gd-name').css({'font-size': '14px'})
   $('.tertiary-piping .gd-txt1').css({top: '12%', left: '82.7%' })
@@ -502,69 +565,7 @@ function treesetMeter2() {
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
 }
-//1200定位仪表
-function twosetMeter2() {
-  $('.secondary-piping .instrumentlocation .meter').css('height', '60px')
-  $('.secondary-piping .instrumentlocation .meter3').css('height', '34px')
 
-  $('.secondary-piping .instrumentlocation1').css({top: '28.3%', left: '18%' })
-
-  $('.secondary-piping .instrumentlocation2').css({top: '3.4%', left: '31.2%' })
-  $('.secondary-piping .instrumentlocation3').css({top: '20%', left: '31.2%' })
-  $('.secondary-piping .instrumentlocation4').css({top: '37%', left: '31.2%' })
-  $('.secondary-piping .instrumentlocation5').css({top: '53.8%', left: '31.2%' })
-  $('.secondary-piping .instrumentlocation6').css({top: '70.6%', left: '31.2%' })
-  $('.secondary-piping .instrumentlocation7').css({top: '87.8%', left: '31.2%' })
-
-  $('.secondary-piping .instrumentlocation8').css({top: '3%', left: '42.1%' })
-  $('.secondary-piping .instrumentlocation9').css({top: '20%', left: '42.1%' })
-  $('.secondary-piping .instrumentlocation10').css({top: '37%', left: '42.1%' })
-  $('.secondary-piping .instrumentlocation11').css({top: '54%', left: '42.1%' })
-  $('.secondary-piping .instrumentlocation12').css({top: '71%', left: '42.1%' })
-  $('.secondary-piping .instrumentlocation13').css({top: '88%', left: '42.1%' })
-
-  $('.secondary-piping .instrumentlocation14').css({top: '3%', left: '56.3%' })
-  $('.secondary-piping .instrumentlocation15').css({top: '20%', left: '56.3%' })
-  $('.secondary-piping .instrumentlocation16').css({top: '37%', left: '56.3%' })
-  $('.secondary-piping .instrumentlocation17').css({top: '54%', left: '56.3%' })
-  $('.secondary-piping .instrumentlocation18').css({top: '71%', left: '56.3%' })
-  $('.secondary-piping .instrumentlocation19').css({top: '88%', left: '56.3%' })
-
-  $('.secondary-piping .instrumentlocation20').css({top: '3%', left: '70.6%' })
-  $('.secondary-piping .instrumentlocation21').css({top: '20%', left: '70.6%' })
-  $('.secondary-piping .instrumentlocation22').css({top: '37%', left: '70.6%' })
-  $('.secondary-piping .instrumentlocation23').css({top: '54%', left: '70.6%' })
-  $('.secondary-piping .instrumentlocation24').css({top: '71%', left: '70.6%' })
-  $('.secondary-piping .instrumentlocation25').css({top: '88%', left: '70.6%' })
-
-  $('.secondary-piping .east-gd-details').css({top: '6%', left: '14%' })
-  
-  $('.secondary-piping .gd-name').css({'font-size': '14px'})
-  $('.secondary-piping .gd-txt1').css({top: '12%', left: '82.7%' })
-  $('.secondary-piping .gd-txt2').css({top: '29%', left: '82.7%' })
-  $('.secondary-piping .gd-txt3').css({top: '46%', left: '82.7%' })
-  $('.secondary-piping .gd-txt4').css({top: '63%', left: '82.7%' })
-  $('.secondary-piping .gd-txt5').css({top: '80%', left: '82.7%' })
-  $('.secondary-piping .gd-txt6').css({top: '97%', left: '82.7%' })
-  $('.secondary-piping .gd-txt7').css({top: '-1%', left: '44.6%' })
-  $('.secondary-piping .gd-txt8').css({top: '-1%', left: '58.8%' })
-  $('.secondary-piping .gd-txt9').css({top: '-1%', left: '73%' })
-  $('.secondary-piping .gd-txt10').css({top: '17%', left: '44.5%' })
-  $('.secondary-piping .gd-txt11').css({top: '17%', left: '59%' })
-  $('.secondary-piping .gd-txt12').css({top: '17%', left: '72.8%' })
-  $('.secondary-piping .gd-txt13').css({top: '34%', left: '44.9%' })
-  $('.secondary-piping .gd-txt14').css({top: '34%', left: '58.8%' })
-  $('.secondary-piping .gd-txt15').css({top: '34%', left: '73.7%' })
-  $('.secondary-piping .gd-txt16').css({top: '51%', left: '44.5%' })
-  $('.secondary-piping .gd-txt17').css({top: '51%', left: '58.8%' })
-  $('.secondary-piping .gd-txt18').css({top: '51%', left: '72.7%' })
-  $('.secondary-piping .gd-txt19').css({top: '68%', left: '44.8%' })
-  $('.secondary-piping .gd-txt20').css({top: '68%', left: '59%' })
-  $('.secondary-piping .gd-txt21').css({top: '68%', left: '73.5%' })
-  $('.secondary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
-  $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
-  $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
-}
 // 获取一级图片比率
 function oneimgRatio(callback) {
   let img = new Image()
