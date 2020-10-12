@@ -1,13 +1,13 @@
-.box {
+.ww-box {
   min-width: 1300px;
   min-height: 100vh;
   color: #fff;
   background: url(../img/bj.png);
   background-size: 100% 100%;
   background-position: 0 0;
-  overflow: hidden;
   background-repeat: no-repeat;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .page-title {
   width: 100%;
@@ -39,7 +39,7 @@
 }
 .water-network {
   width: 90%;
-  margin: 0px auto 20px;
+  margin: 0px auto;
   position: relative;
 }
 .primary-piping {

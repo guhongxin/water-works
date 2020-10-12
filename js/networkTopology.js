@@ -2,13 +2,29 @@ $(function() {
   // 加载完成
   let pagetitleHt = $('.page-title').height()
   let clientHeight = document.documentElement.clientHeight
-  console.log('pagetitleHt', pagetitleHt)
-  console.log('screenHt', clientHeight)
-  console.log('screenHt - pagetitleHt', clientHeight - pagetitleHt)
   $('.content-box').css('min-height', clientHeight - pagetitleHt + 'px')
+
+  window.addEventListener("resize", resizeThrottler, false);
+  var resizeTimeout;
+  function resizeThrottler() {
+    // ignore resize events as long as an actualResizeHandler execution is in the queue
+    if (!resizeTimeout) {
+      resizeTimeout = setTimeout(function () {
+        resizeTimeout = null;
+        let pagetitleHt = $('.page-title').height()
+        let clientHeight = document.documentElement.clientHeight
+        $('.content-box').css('min-height', clientHeight - pagetitleHt + 'px')
+        oneimgRatio(onesetMeter0)
+        twoimgRatio(twosetMeter0)
+        treeimgRatio(treesetMeter0)
+        // The actualResizeHandler will execute at a rate of 15fps
+      }, 66);
+    }
+  }
   oneimgRatio(onesetMeter0)
   twoimgRatio(twosetMeter0)
   treeimgRatio(treesetMeter0)
+
   $('.meter').on('click', function() {
     let index = $(this).data("instarument")
     if (index === undefined) return false 
@@ -216,7 +232,7 @@ function onesetMeter2() {
   $('.primary-piping .east-gd-details').css({top: '3%', left: '13%' })
   $('.primary-piping .west-gd-details').css({top: '62%', left: '15%' })
 
-  $('.primary-piping .gd-name').css({'font-size': '12px'})
+  $('.primary-piping .gd-name').css({'font-size': '14px'})
   $('.primary-piping .gd-txt1').css({top: '12.2%', left: '82.4%' })
   $('.primary-piping .gd-txt2').css({top: '29.2%', left: '82.4%' })
   $('.primary-piping .gd-txt3').css({top: '46.2%', left: '82.4%' })
