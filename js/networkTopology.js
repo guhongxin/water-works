@@ -249,6 +249,7 @@ function twosetMeter0() {
   $('.secondary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+  $('.secondary-piping .water-tank-name').css({top: '67%', left: '6.5%' })
 }
 //1730定位仪表
 function twosetMeter1() {
@@ -312,6 +313,7 @@ function twosetMeter1() {
   $('.secondary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+  $('.secondary-piping .water-tank-name').css({top: '67%', left: '6.5%' })
 }
 //1200定位仪表
 function twosetMeter2() {
@@ -375,6 +377,7 @@ function twosetMeter2() {
   $('.secondary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+  $('.secondary-piping .water-tank-name').css({top: '67%', left: '6.5%' })
 }
 //1920定位仪表
 function treesetMeter0() {
@@ -437,6 +440,7 @@ function treesetMeter0() {
   $('.tertiary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+  $('.tertiary-piping .water-tank-name').css({top: '67%', left: '7.5%' })
 }
 //1730定位仪表
 function treesetMeter1() {
@@ -500,6 +504,7 @@ function treesetMeter1() {
   $('.tertiary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+  $('.tertiary-piping .water-tank-name').css({top: '67%', left: '7.5%' })
 }
 
 //1200定位仪表
@@ -564,6 +569,7 @@ function treesetMeter2() {
   $('.tertiary-piping .gd-txt22').css({top: '85%', left: '44.8%' })
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
+  $('.tertiary-piping .water-tank-name').css({top: '67%', left: '7.5%' })
 }
 
 // 获取一级图片比率
