@@ -32,6 +32,11 @@
   left: 5%;
   bottom: 40%;
 }
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .water-network {
   width: 90%;
   margin: 0px auto 20px;

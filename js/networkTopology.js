@@ -1,5 +1,11 @@
 $(function() {
   // 加载完成
+  let pagetitleHt = $('.page-title').height()
+  let clientHeight = document.documentElement.clientHeight
+  console.log('pagetitleHt', pagetitleHt)
+  console.log('screenHt', clientHeight)
+  console.log('screenHt - pagetitleHt', clientHeight - pagetitleHt)
+  $('.content-box').css('min-height', clientHeight - pagetitleHt + 'px')
   oneimgRatio(onesetMeter0)
   twoimgRatio(twosetMeter0)
   treeimgRatio(treesetMeter0)
@@ -36,13 +42,47 @@ $(function() {
       $('.tertiary-piping').css('display', 'block')
     }
   })
+  $('.gd-name').on('click', function() {
+    let index = $(this).data("instarument")
+    if (index === undefined) return false 
+    let pageName = $(this).data("pageName") || ''
+    let wz = $(this).data("wz") || ''
+    let wzArr = wz.split('-')
+    let _titleName = pageName + ' 流量管控中心'
+    $('.wz-place').css('display', 'block');
+    $('.page-title .title').text(_titleName)
+    $('.wz-place .home').css('cursor', 'auto');
+    $('.wz-place .wz-place-one').css('cursor', 'auto');
+    if (wzArr.length > 1) {
+      $('.wz-place .wz-place-one').text(wzArr[0]);
+      $('.wz-place .wz-place-two').css('display', 'inline');
+      $('.wz-place .wz-place-two-txt').text(wzArr[1]);
+      $('.wz-place .home').css('cursor', 'pointer');
+      $('.wz-place .wz-place-one').css('cursor', 'pointer');
+    } else {
+      $('.wz-place .wz-place-one').text(wzArr[0]);
+      $('.wz-place .wz-place-two').css('display', 'none');
+      $('.wz-place .wz-place-two-txt').text('');
+      $('.wz-place .home').css('cursor', 'pointer');
+    }
+    if (index + '' === '1') {
+      $('.primary-piping').css('display', 'none')
+      $('.secondary-piping').css('display', 'block')
+      $('.tertiary-piping').css('display', 'none')
+    } else if (index === '2-1') {
+      $('.primary-piping').css('display', 'none')
+      $('.secondary-piping').css('display', 'none')
+      $('.tertiary-piping').css('display', 'block')
+    }
+  })
   $('.wz-place .home').on('click', function() {
     $('.primary-piping').css('display', 'block')
     $('.secondary-piping').css('display', 'none')
     $('.tertiary-piping').css('display', 'none')
-    $('.page-title .title').text('取水泵站机组轴承运行监控')
+    $('.page-title .title').text('黄梅水厂 流量管控中心')
     $('.wz-place').css('display', 'none');
   })
+
   $('.wz-place .wz-place-one').on('click', function() {
     $('.primary-piping').css('display', 'none')
     $('.secondary-piping').css('display', 'block')
