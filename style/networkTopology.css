@@ -1,29 +1,52 @@
-html {
-  width: 100%;
-}
-body {
-  min-width: 1024px;
+.box {
+  min-width: 1300px;
   min-height: 100vh;
   color: #fff;
   background: url(../img/bj.png);
   background-size: 100% 100%;
   background-position: 0 0;
-  border: 1px solid transparent;
+  overflow: hidden;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 .page-title {
   width: 100%;
+  position: relative;
+}
+.page-title .title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 .page-title .title-img {
   width: 100%;
   display: block;
 }
+.page-title .wz-place {
+  display: none;
+  position: absolute;
+  left: 5%;
+  bottom: 40%;
+}
 .water-network {
   width: 90%;
-  margin: 1% auto 20px;
+  margin: 0px auto 20px;
   position: relative;
 }
-.water-network .water-work-img {
+.primary-piping {
+  display: block;
+}
+.secondary-piping {
+  display: none;
+}
+.tertiary-piping {
+  display: none;
+}
+.water-work-img {
   width: 100%;
   display: block;
 }
@@ -50,49 +73,10 @@ body {
   top: 0px;
 
 }
-.instrumentlocation1 {
-  position: absolute;
-  top: 29%;
-  left: 18%;
-}
-.instrumentlocation2 {
-  position: absolute;
-  top: 89%;
-  left: 18%;
-}
-.instrumentlocation3 {
-  position: absolute;
-  top: 3.9%;
-  left: 31.2%
-}
-.instrumentlocation4 {
-  position: absolute;
-  top: 21%;
-  left: 31.2%
-}
-.instrumentlocation5 {
-  position: absolute;
-  top: 38%;
-  left: 31.2%
-}
-.instrumentlocation6 {
-  position: absolute;
-  top: 55.2%;
-  left: 31.2%
-}
-.instrumentlocation7 {
-  position: absolute;
-  top: 72.2%;
-  left: 31.2%
-}
-.instrumentlocation8 {
-  position: absolute;
-  top: 89%;
-  left: 31.2%
-}
 .instrumentlocationType1 {
-  position: relative;
+  position: absolute;
 }
+
 .instrumentlocationType1 .meter {
   width: 40px;
   display: block;
@@ -112,99 +96,8 @@ body {
   right: -95px;
   top: 0px;
 }
-.instrumentlocation9 {
-  position: absolute;
-  top: 4%;
-  left: 42.5%;
-}
-.instrumentlocation10 {
-  position: absolute;
-  top: 21%;
-  left: 42.5%;
-}
-.instrumentlocation11 {
-  position: absolute;
-  top: 38%;
-  left: 42.5%;
-}
-.instrumentlocation12 {
-  position: absolute;
-  top: 55%;
-  left: 42.5%;
-}
-.instrumentlocation13 {
-  position: absolute;
-  top: 72%;
-  left: 42.5%;
-}
-.instrumentlocation14 {
-  position: absolute;
-  top: 89%;
-  left: 42.5%;
-}
-.instrumentlocation15 {
-  position: absolute;
-  top: 4%;
-  left: 56.6%;
-}
-.instrumentlocation16 {
-  position: absolute;
-  top: 21%;
-  left: 56.6%;
-}
-.instrumentlocation17 {
-  position: absolute;
-  top: 38%;
-  left: 56.6%;
-}
-.instrumentlocation18 {
-  position: absolute;
-  top: 55%;
-  left: 56.6%;
-}
-.instrumentlocation19 {
-  position: absolute;
-  top: 72%;
-  left: 56.6%;
-}
-.instrumentlocation20 {
-  position: absolute;
-  top: 89%;
-  left: 56.6%;
-}
-.instrumentlocation21 {
-  position: absolute;
-  top: 4%;
-  left: 71%;
-}
-.instrumentlocation22 {
-  position: absolute;
-  top: 21%;
-  left: 71%;
-}
-.instrumentlocation23 {
-  position: absolute;
-  top: 38%;
-  left: 71%;
-}
-.instrumentlocation24 {
-  position: absolute;
-  top: 55%;
-  left: 71%;
-}
-.instrumentlocation25 {
-  position: absolute;
-  top: 72%;
-  left: 71%;
-}
-.instrumentlocation26 {
-  position: absolute;
-  top: 89%;
-  left: 71%;
-}
 .water-card {
   width: 160px;
-  height: 110px;
   background: url('../img/card.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -230,17 +123,28 @@ body {
 }
 .west-gd-details {
   position: absolute;
-  top: 63%;
-  left: 15%;
 }
 .right-card-area {
   position: absolute;
-  top: 0px;
-  right: 0px;
 }
 .right-card-area > .water-card:not(:last-child) {
   margin-bottom: 5%;
 }
 .gd-name {
   position: absolute;
+}
+.instrumentlocationBl .meter-tooltip {
+  width: 70px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #8BF1F9;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #8BF1F9;
+  position: absolute;
+  right: -89px;
+  top: 0px;
 }
