@@ -159,6 +159,7 @@ $(function() {
     $('.crew2 .bearingB i').removeClass().addClass('status')
     $('.crew2 .bearingC i').removeClass().addClass('status')
     $('.crew2 .bearingD i').removeClass().addClass('status')
+    $('.crew1 .bearingA i').removeClass().addClass('status')
     $('.crew1 .bearingB i').removeClass().addClass('status')
     $('.crew1 .bearingC i').removeClass().addClass('status')
     if (showName === 'crew2') {

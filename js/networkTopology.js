@@ -11,6 +11,7 @@ $(function() {
     if (!resizeTimeout) {
       resizeTimeout = setTimeout(function () {
         resizeTimeout = null;
+        $('.primary-piping .right-area').css({right: '0x' })
         let pagetitleHt = $('.page-title').height()
         let clientHeight = document.documentElement.clientHeight
         $('.content-box').css('min-height', clientHeight - pagetitleHt + 'px')
@@ -168,6 +169,7 @@ function onesetMeter0() {
   $('.primary-piping .gd-txt22').css({top: '85%', left: '44.7%' })
   $('.primary-piping .gd-txt23').css({top: '85%', left: '59%' })
   $('.primary-piping .gd-txt24').css({top: '85%', left: '73%' })
+  $('.primary-piping .right-area').css({right: '0x' })
 
 }
 //1730定位仪表
@@ -230,6 +232,7 @@ function onesetMeter1() {
   $('.primary-piping .gd-txt22').css({top: '85%', left: '44.7%' })
   $('.primary-piping .gd-txt23').css({top: '85%', left: '59%' })
   $('.primary-piping .gd-txt24').css({top: '85%', left: '73%' })
+  $('.primary-piping .right-area').css({right: '0x' })
 }
 
 //1730定位仪表
@@ -293,6 +296,7 @@ function onesetMeter2() {
   $('.primary-piping .gd-txt22').css({top: '85%', left: '44.7%' })
   $('.primary-piping .gd-txt23').css({top: '85%', left: '59%' })
   $('.primary-piping .gd-txt24').css({top: '85%', left: '73%' })
+  $('.primary-piping .right-area').css({right: '-20px' })
 }
 
 //1920定位仪表
@@ -360,6 +364,7 @@ function twosetMeter0() {
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
   $('.secondary-piping .water-tank-name').css({top: '67%', left: '6.5%' })
+  $('.secondary-piping .right-area').css({right: '0px' })
 }
 //1730定位仪表
 function twosetMeter1() {
@@ -424,6 +429,7 @@ function twosetMeter1() {
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
   $('.secondary-piping .water-tank-name').css({top: '67%', left: '6.5%' })
+  $('.secondary-piping .right-area').css({right: '0px' })
 }
 //1200定位仪表
 function twosetMeter2() {
@@ -488,6 +494,7 @@ function twosetMeter2() {
   $('.secondary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.secondary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
   $('.secondary-piping .water-tank-name').css({top: '67%', left: '6.5%' })
+  $('.secondary-piping .right-area').css({right: '-35px' })
 }
 //1920定位仪表
 function treesetMeter0() {
@@ -551,6 +558,7 @@ function treesetMeter0() {
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
   $('.tertiary-piping .water-tank-name').css({top: '67%', left: '7.5%' })
+  $('.tertiary-piping .right-area').css({right: '0px' })
 }
 //1730定位仪表
 function treesetMeter1() {
@@ -615,6 +623,7 @@ function treesetMeter1() {
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
   $('.tertiary-piping .water-tank-name').css({top: '67%', left: '7.5%' })
+  $('.tertiary-piping .right-area').css({right: '0px' })
 }
 
 //1200定位仪表
@@ -680,6 +689,7 @@ function treesetMeter2() {
   $('.tertiary-piping .gd-txt23').css({top: '85%', left: '59.2%' })
   $('.tertiary-piping .gd-txt24').css({top: '85%', left: '73.5%' })
   $('.tertiary-piping .water-tank-name').css({top: '67%', left: '7.5%' })
+  $('.tertiary-piping .right-area').css({right: '-30px' })
 }
 
 // 获取一级图片比率
