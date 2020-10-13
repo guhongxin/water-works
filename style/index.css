@@ -80,10 +80,10 @@ html {
 
 }
 #bearing .crew1 {
-  display: block;
+  display: none;
 }
 #bearing .crew2 {
-  display: none;
+  display: block;
 }
 #bearing .part-one .part-one-middle .crew .bearing {
   display: flex;
@@ -123,6 +123,11 @@ html {
   top: 10%;
 }
 #bearing .crew1 .bearingB {
+  position: absolute;
+  left: 31%;
+  top: 50%;
+}
+#bearing .crew1 .bearingC {
   position: absolute;
   left: 31%;
   top: 70%;
@@ -262,4 +267,21 @@ html {
 #bearing .table-footer .details span {
   cursor: pointer;
   color: rgba(105, 239, 98, 1);
+}
+.warn-info {
+  padding: 2%;
+  overflow: auto;
+  overflow-y: auto;
+}
+.warn-info li {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warn-info  li {
+  background: url(../img/13.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #FF6D01;
 }
