@@ -32,6 +32,12 @@
   left: 5%;
   bottom: 40%;
 }
+.page-title .tj-time {
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+  color:red;
+}
 .content-box {
   display: flex;
   justify-content: center;
