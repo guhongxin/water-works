@@ -63,7 +63,7 @@
   display: block;
 }
 .instrumentlocation .meter-tooltip {
-  width: 70px;
+  min-width: 70px;
   height: 28px;
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid #8BF1F9;
@@ -76,7 +76,10 @@
   position: absolute;
   right: -67px;
   top: 0px;
-
+  padding: 0px 2px;
+  box-sizing: border-box;
+  padding: 0px 2px;
+  box-sizing: border-box;
 }
 .instrumentlocationType1 {
   position: absolute;
@@ -87,7 +90,7 @@
   display: block;
 }
 .instrumentlocationType1  .meter-tooltip {
-  width: 70px;
+  min-width: 70px;
   height: 28px;
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid #8BF1F9;
@@ -100,6 +103,8 @@
   position: absolute;
   right: -95px;
   top: 0px;
+  padding: 0px 2px;
+  box-sizing: border-box;
 }
 .water-card {
   width: 160px;
@@ -129,10 +134,21 @@
 .west-gd-details {
   position: absolute;
 }
-.right-card-area {
+.right-area {
   position: absolute;
   top: 0px;
   right: 0px;
+  width: 160px;
+  overflow: hidden;
+  height: 100%;
+}
+.right-card-area {
+  position: absolute;
+  top: 0px;
+  right: -17x;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
 }
 .right-card-area > .water-card:not(:last-child) {
   margin-bottom: 5%;
@@ -141,7 +157,7 @@
   position: absolute;
 }
 .instrumentlocationBl .meter-tooltip {
-  width: 70px;
+  min-width: 70px;
   height: 28px;
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid #8BF1F9;
