@@ -2,7 +2,7 @@
   min-width: 1300px;
   min-height: 100vh;
   color: #fff;
-  background: url(../../img/bearing/bj.png);
+  background: url(../img/bj.png);
   background-size: 100% 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -32,14 +32,12 @@
   left: 5%;
   bottom: 40%;
 }
-
 .page-title .tj-time {
   position: absolute;
   right: 5%;
   bottom: 40%;
   color:red;
 }
-
 .content-box {
   display: flex;
   justify-content: center;
@@ -77,12 +75,12 @@
   border: 1px solid #8BF1F9;
   line-height: 28px;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 4px;
   font-weight: 400;
   color: #8BF1F9;
   position: absolute;
-  right: -80px;
+  right: -67px;
   top: 0px;
   padding: 0px 2px;
   box-sizing: border-box;
@@ -104,19 +102,19 @@
   border: 1px solid #8BF1F9;
   line-height: 28px;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 4px;
   font-weight: 400;
   color: #8BF1F9;
   position: absolute;
-  right: -105px;
+  right: -100px;
   top: 0px;
   padding: 0px 2px;
   box-sizing: border-box;
 }
 .water-card {
   width: 160px;
-  background: url('../../img/bearing/card.png');
+  background: url('../img/card.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 20px;
@@ -171,12 +169,12 @@
   border: 1px solid #8BF1F9;
   line-height: 28px;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 4px;
   font-weight: 400;
   color: #8BF1F9;
   position: absolute;
-  right: -89px;
+  right: -100px;
   top: 0px;
 }
 .water-tank-box {

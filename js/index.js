@@ -205,7 +205,7 @@ $(function() {
       'line-height': '25px'
     })
     $('#bearing .part-one .part-one-middle .crew .bearing').css({
-      'font-size': '12px'
+      'font-size': '14px'
     })
     $('#bearing .table .table-tr .table-td').css({
       'font-size': '12px'
@@ -267,7 +267,7 @@ $(function() {
       'line-height': '20px'
     })
     $('#bearing .part-one .part-one-middle .crew .bearing').css({
-      'font-size': '12px'
+      'font-size': '14px'
     })
     $('#bearing .table .table-tr .table-td').css({
       'font-size': '12px'

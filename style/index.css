@@ -93,8 +93,8 @@ html {
 }
 #bearing .part-one .part-one-middle .crew .bearing .status{
   display: block;
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px;
   margin-left: 5px;
 }
 #bearing .crew2 .bearingA {
@@ -284,4 +284,10 @@ html {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #FF6D01;
+}
+.warn {
+  color: #E6A23C;
+}
+.danger {
+  color: #F56C6C;
 }
