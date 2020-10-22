@@ -1,0 +1,184 @@
+.ww-box {
+  min-width: 1300px;
+  min-height: 100vh;
+  color: #fff;
+  background: url(../../img/bearing/bj.png);
+  background-size: 100% 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.page-title {
+  width: 100%;
+  position: relative;
+}
+.page-title .title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.page-title .title-img {
+  width: 100%;
+  display: block;
+}
+.page-title .wz-place {
+  display: none;
+  position: absolute;
+  left: 5%;
+  bottom: 40%;
+}
+
+.page-title .tj-time {
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+  color:red;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.water-network {
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+}
+.primary-piping {
+  display: block;
+}
+.secondary-piping {
+  display: none;
+}
+.tertiary-piping {
+  display: none;
+}
+.water-work-img {
+  width: 100%;
+  display: block;
+}
+.instrumentlocation {
+  position: absolute;
+}
+.instrumentlocation .meter {
+  height: 60px;
+  display: block;
+}
+.instrumentlocation .meter-tooltip {
+  min-width: 70px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #8BF1F9;
+  line-height: 28px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #8BF1F9;
+  position: absolute;
+  right: -80px;
+  top: 0px;
+  padding: 0px 2px;
+  box-sizing: border-box;
+  padding: 0px 2px;
+  box-sizing: border-box;
+}
+.instrumentlocationType1 {
+  position: absolute;
+}
+
+.instrumentlocationType1 .meter {
+  width: 40px;
+  display: block;
+}
+.instrumentlocationType1  .meter-tooltip {
+  min-width: 70px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #8BF1F9;
+  line-height: 28px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #8BF1F9;
+  position: absolute;
+  right: -105px;
+  top: 0px;
+  padding: 0px 2px;
+  box-sizing: border-box;
+}
+.water-card {
+  width: 160px;
+  background: url('../../img/bearing/card.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.water-card .water-card-title {
+  font-size: 14px;
+  color: #ffffff;
+}
+.water-card .water-card-content {
+  margin-top: 10px;
+  color: #8CF2F9;
+  font-size: 12px;
+}
+.water-card .water-card-content > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.east-gd-details {
+  position: absolute;
+  top: 4%;
+  left: 13%;
+}
+.west-gd-details {
+  position: absolute;
+}
+.right-area {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 160px;
+  overflow: hidden;
+  height: 100%;
+}
+.right-card-area {
+  position: absolute;
+  top: 0px;
+  right: -17x;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.right-card-area > .water-card:not(:last-child) {
+  margin-bottom: 5%;
+}
+.gd-name {
+  position: absolute;
+}
+.instrumentlocationBl .meter-tooltip {
+  min-width: 70px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #8BF1F9;
+  line-height: 28px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #8BF1F9;
+  position: absolute;
+  right: -89px;
+  top: 0px;
+}
+.water-tank-box {
+  position: absolute;
+}
