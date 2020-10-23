@@ -285,9 +285,9 @@ html {
   background-size: 100% 100%;
   color: #FF6D01;
 }
-.warn {
-  color: #E6A23C;
+.warn .table-td {
+  background-color: #E6A23C;
 }
-.danger {
-  color: #F56C6C;
+.danger .table-td {
+  background-color: #F56C6C;
 }
